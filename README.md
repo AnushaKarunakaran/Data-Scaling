@@ -1,6 +1,8 @@
 # Data-Scaling
 Explaining how Data Scaling increases the accuracy of the model and reduces bias.
 
+Dataset used : The wine dataset is a classic and very easy multi-class classification dataset.
+
 Standardization is a preprocessing method used to transform continuous data to make it look normally distributed. In scikit-learn this is often a necessary step because many models assume that the data you are training on is normally distributed, and if it isn't, your risk biasing your model.
 
 It’s also important to note that *standardization* is a preprocessing method applied to continuous, numerical data, and there are a few different scenarios in which you want to use it:
